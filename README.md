@@ -14,10 +14,10 @@ This program also generate random Transaction ID for each customer.
 2. User can do several things in this program:
   - Add Item: Customer can add items to the cart
   - Update Item: Customer can update the name of items, quantity, or price of existing item
-  -Delete Item: Customer can delete/remove an/several items from their cart
-  -Show All Items: Program shows all items that added by customer
-  -Reset Item: Customer can reset/delete all the items from their cart
-  -Calculate Total Price: Program will calculate all the items in the cart by the price and customer will get discount if Total Price reach certain value.
+  - Delete Item: Customer can delete/remove an/several items from their cart
+  - Show All Items: Program shows all items that added by customer
+  - Reset Item: Customer can reset/delete all the items from their cart
+  - Calculate Total Price: Program will calculate all the items in the cart by the price and customer will get discount if Total Price reach certain value.
     - Total Price > Rp.500,000 discount 10%
     - Total Price > Rp.300,000 discount 8%
     - Total Price > Rp.200,000 discount 5%
