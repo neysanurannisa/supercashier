@@ -22,14 +22,21 @@ This program also generate random Transaction ID for each customer.
     - Total Price > Rp.300,000 discount 8%
     - Total Price > Rp.200,000 discount 5%
 ## Code
-## Test Case
 **Start program** (main.py)
 1. Program will greet user and ask for their name
+2. Program will generate custom Transaction ID for each user
+3. Program will show user their Name, Transaction ID, and time
+4. Program will ask user to input their Item
+5. Program branching. Program will ask user if they want to add more items to their cart or continue
+6. User can update (edit) their items in their cart
+7. User can remove choosen items OR reset their cart
+8. User can continue by Checking Out and doing payment
+9. If condition meets, user can finish their shopping and program will say thank you and goodbye to user.
 
 ## Conclusion
 Code used in this program allows customer to add, remove, update, and view their items in the list. User can see the Total Price of their items (+discounted price if meets certain value) or Exit the program.
 
 ## Future Works
 1. Programmer can identified soecifically for each customer so their Transaction ID is same whenever the customer purchase from Supermarket Andi
-2. Create a database for Transaction History/past transaction
+2. Create a database for Transaction History/past transaction based on their Transaction ID
 3. Create a Search Bar that allows customer to check the price first before checking out the items
