@@ -8,9 +8,10 @@ print("   ---Welcome to Supermarket Andi---   ")
 
 # Input customer's name
 nama = input("Enter Your Name : ")
-if nama.isalpha():
+if nama.isalpha(): 
     pass
-else:
+else: 
+# Condition if user input wrong type of text
     print("Invalid input. Please enter your name.")
 
 # Generate transaction id for customer
@@ -26,9 +27,10 @@ print(f"Name : {nama}")
 print(f"Date : {date}")
 print(f"Trans ID : {trans_id}")
 
+# Ask user to add Items to their receipt
 print("---Add Your Items---")
 while True:
-    transaction.add_item()
+    transaction.add_item() #
     more_item = input("Do you want to add more items? (Y/N)").lower()
     if more_item == "n":
         break
