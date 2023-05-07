@@ -2,8 +2,8 @@
 This is **Pacmann Final Project** for Python module.
 
 ## Program Description
-Cashier system program that allows customer to input their item, add quantity, and price for each items. There are options for customer to checkout the items (by calculating the price with quantity) or exit the program. It allows the custome to input and pay by themself (self-service).
-This program also generate random Transaction ID for each customer.
+Cashier system program that allows customer to input their item, add quantity, and price for each items. There are options for customer to checkout the items (by calculating the price with quantity) or exit the program. It allows the customer to input and pay by themself (self-service).
+This program create a recipe/notes with the time customer make a payment and also generate random Transaction ID for each customer.
 ## Requirements
 1. Create simpe self-service cashier using Python
 2. Apply OOP
@@ -25,18 +25,19 @@ This program also generate random Transaction ID for each customer.
 **Start program** (main.py)
 1. Program will greet user and ask for their name
 2. Program will generate custom Transaction ID for each user
-3. Program will show user their Name, Transaction ID, and time
+3. Program will show user their Name, Transaction ID, and Time
 4. Program will ask user to input their Item
 5. Program branching. Program will ask user if they want to add more items to their cart or continue
 6. User can update (edit) their items in their cart
 7. User can remove choosen items OR reset their cart
 8. User can continue by Checking Out and doing payment
-9. If condition meets, user can finish their shopping and program will say thank you and goodbye to user.
+9. If condition meets, user can finish their activity and program will say Thank You and Goodbye to user.
+**Branching and Processing** (transaction.py)
 
 ## Conclusion
 Code used in this program allows customer to add, remove, update, and view their items in the list. User can see the Total Price of their items (+discounted price if meets certain value) or Exit the program.
 
 ## Future Works
-1. Programmer can identified soecifically for each customer so their Transaction ID is same whenever the customer purchase from Supermarket Andi
+1. Programmer can identified specifically for each customer so their Transaction ID is same whenever the customer purchase from Supermarket Andi
 2. Create a database for Transaction History/past transaction based on their Transaction ID
 3. Create a Search Bar that allows customer to check the price first before checking out the items
