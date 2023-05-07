@@ -1,7 +1,8 @@
-import tabulate
+import tabulate # To create tabel
 
 cart = []
     
+# for Add Items option
 def add_item():
     while True:
         name_item = input("Enter Your Item : ").lower()
@@ -26,8 +27,9 @@ def add_item():
 
     item_id = len(cart) + 1
 
-    total_price = qt_item * price_item
+    total_price = qt_item * price_item # Count total price per item with quantity
 
+    # Input user's item to the tabel
     cart.append({
         'No' : item_id,
         'Item' : name_item,
@@ -110,6 +112,7 @@ def update_qt():
       
     print("You are successfully updated your item")
 
+# Calculate total price for all Items    
 def payment_price():
     total_price = 0
     for name_item in cart:
